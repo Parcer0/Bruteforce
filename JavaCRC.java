@@ -4,16 +4,16 @@
 *  Author: Parcer0
 *  Date: 25/05/05
 *  Description: Crc32 Cracker
-*               root@NeoSecurity:/home/hackzatan# pico NstBruteC32.java
-*               root@NeoSecurity:/home/hackzatan# gcj --main=NstBruteC32 -O9 NstBruteC32.java -o NstBruteC32
-*               root@NeoSecurity:/home/hackzatan# ./NstBruteC32
+*               root@NeoSecurity:/home/parcer0# pico NstBruteC32.java
+*               root@NeoSecurity:/home/parcer0# gcj --main=NstBruteC32 -O9 NstBruteC32.java -o NstBruteC32
+*               root@NeoSecurity:/home/parcer0# ./NstBruteC32
 *               NeoSecurityTeam CRC32 BruteForcer
 *               Initializing...
 *               
 *               
 *               CRC32: EE72A028
 *               Pass: nst
-*               root@NeoSecurity:/home/hackzatan#
+*               root@NeoSecurity:/home/parcer0#
 */
 
 import java.util.zip.*;
