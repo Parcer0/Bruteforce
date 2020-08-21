@@ -1,7 +1,3 @@
-/*
-All you have to do is replace test with your un function and give it a go.
-*/
-
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -12,18 +8,24 @@ All you have to do is replace test with your un function and give it a go.
 char test(char i, char j,char k, char l,char m, char n);
 
 int main(){
-	   char i,j,k,l,m,n;
-   for (i = start; i < longitud; i++){
-     for (j = start; j < longitud; j++){
-        for (k = start; k < longitud; k++){
-           for (l = start; l < longitud; l++){
-              for (m = start; m < longitud; m++){
-                 for (n = start; n < longitud; n++){
-		if(test(i,j,k,l,m,n)){
-			printf("Found it: %c %c %c %c %c %c\n", i,j,k,l,m,n);
-			exit(0);
+	char i,j,k,l,m,n;
+	
+		for (i = start; i < longitud; i++){
+			for (j = start; j < longitud; j++){
+				for (k = start; k < longitud; k++){
+					for (l = start; l < longitud; l++){
+						for (m = start; m < longitud; m++){
+							for (n = start; n < longitud; n++){
+								if(test(i,j,k,l,m,n)){
+									printf("Found it: %c %c %c %c %c %c\n", i,j,k,l,m,n);
+									exit(0);
+								}
+							}
+						}
+					}
+				}
+			}
 		}
-	}}}}}}
 	return 0;
 }
 
@@ -38,6 +40,11 @@ char test(char i, char j,char k, char l,char m, char n){
 					if((x + m) == 0x00) {
 						if((x + n) == 0x00) {
 							return 1;
-						
-	}}}}}}
-	return 0;}
+						}
+					}
+				}
+			}
+		}
+	}
+	return 0;
+}
