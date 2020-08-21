@@ -1,2 +1,2 @@
 # Bruteforce
-Various bruteforce algorithims written in different languages (PHP, C, Java, Javascript, ...)
+Various brute-force algorithms written in different languages (PHP, C, Java, Javascript, ...)
